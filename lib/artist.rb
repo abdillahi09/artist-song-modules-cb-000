@@ -2,7 +2,8 @@
 # Old lesson - repetition helps me remember old school concepts
 class Artist
 
-  extend memorable
+  # extend memorable
+  include memorable
 
   attr_accessor :name
   attr_reader :songs
