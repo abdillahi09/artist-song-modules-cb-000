@@ -1,18 +1,18 @@
 module memorable
 
-  def self.reset_all
-    self.all.clear
+  def reset_all
+    all.clear
   end
 
-  def self.count
+  def count
     @@artists.count
   end
 
-  def self.all
+  def all
     @@songs
   end
 
-  def self.reset_all
+  def reset_all
     @@songs.clear
   end
 
