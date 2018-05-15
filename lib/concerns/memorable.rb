@@ -8,4 +8,12 @@ module memorable
     @@artists.count
   end
 
+  def self.all
+    @@songs
+  end
+
+  def self.reset_all
+    @@songs.clear
+  end
+
 end
