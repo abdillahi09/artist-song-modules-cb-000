@@ -1,6 +1,9 @@
 require 'pry'
 # Old lesson - repetition helps me remember old school concepts
 class Artist
+
+  extend memorable
+
   attr_accessor :name
   attr_reader :songs
 
