@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 # Old lesson - repetition helps me remember old school concepts
 class Artist
 
