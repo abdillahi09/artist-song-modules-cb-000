@@ -1,7 +1,6 @@
 require 'pry'
-# Old lesson - repetition helps me remember old school concepts
-class Artist
 
+class Artist
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
   extend Findable
@@ -9,6 +8,7 @@ class Artist
 
   attr_accessor :name
   attr_reader :songs
+
   @@artists = []
 
   def initialize
