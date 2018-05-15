@@ -2,8 +2,8 @@ require 'pry'
 # Old lesson - repetition helps me remember old school concepts
 class Artist
 
-  # extend memorable
-  include memorable
+  extend Memorable::ClassMethods
+  include Memorable::InstanceMethods
 
   attr_accessor :name
   attr_reader :songs
