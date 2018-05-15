@@ -18,8 +18,8 @@ class Song
     @artist = artist
   end
 
-  def self.count
-    self.all.count
+  def self.all
+    @songs
   end
 
 end
