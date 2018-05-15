@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 # Old lesson - repetition helps me remember old school concepts
 class Artist
 
@@ -10,14 +10,16 @@ class Artist
 
   @@artists = []
 
+  def initialize
+    songs
+    @songs = []
+  end
+
   def self.find_by_name(name)
     @@artists.detect{|a| a.name == name}
   end
 
-  def initialize
-    @@artists << self
-    @songs = []
-  end
+
 
   def self.all
     @@artists
